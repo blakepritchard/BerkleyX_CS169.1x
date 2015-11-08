@@ -21,7 +21,7 @@ class HangpersonGame
     @guesses ||= ''
     @wrong_guesses ||= ''
     @check_win_or_lose = :play
-    @verbose = true
+    @verbose = false
   end
     
 
