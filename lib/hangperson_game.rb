@@ -34,8 +34,8 @@ class HangpersonGame
 
   def guess (charGuess)
     
-    raise(:ArgumentError) if ''==charGuess || nil == charGuess 
-    raise(:ArgumentError) unless charGuess.match(/^[[:alpha:]]+$/)
+    raise(ArgumentError) if ''==charGuess || nil == charGuess 
+    raise(ArgumentError) unless charGuess.match(/^[[:alpha:]]+$/)
     
     guess = charGuess.downcase
     answer = @word.downcase
